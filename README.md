@@ -91,7 +91,3 @@ print(response.json())  # Returns the deleted order ID
 response = requests.get("http://localhost:8000/pending_orders")
 print(response.json())  # Returns a list of all pending orders
 ```
-
-## Acknowledgments
-
-This project was inspired by the desire to learn FastAPI and build a simple yet functional Pizza Ordering System.
